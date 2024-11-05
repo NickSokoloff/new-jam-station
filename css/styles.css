@@ -419,7 +419,11 @@ About
   overflow-x: hidden;
 }
 
-.about-header p {
+.about-header .right {
+  color: var(--clr-white);
+  animation: slideFromRight 5s ease-in-out 1;
+}
+.about-header .left {
   color: var(--clr-white);
   animation: slideFromLeft 5s ease-in-out 1;
 }
