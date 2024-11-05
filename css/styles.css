@@ -292,15 +292,6 @@ Header
   /* animation */
   overflow-x: hidden;
 }
-.about-header {
-  min-height: 100vh;
-
-  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
-    url("../images/home-bg-img.jpg") center/cover no-repeat fixed;
-
-  /* animation */
-  overflow-x: hidden;
-}
 
 .banner {
   text-align: center;
@@ -418,9 +409,20 @@ Skills
 About
 ===============
 */
-/* .about-section {
-  height: 100vh;
-} */
+.about-header {
+  min-height: 100vh;
+
+  background: linear-gradient(rgba(0, 0, 0, 0.3), rgba(0, 0, 0, 0.3)),
+    url("../images/home-bg-img.jpg") center/cover no-repeat fixed;
+
+  /* animation */
+  overflow-x: hidden;
+}
+
+.about-header p {
+  color: var(--clr-white);
+  animation: slideFromLeft 5s ease-in-out 1;
+}
 .about-img,
 .about-info {
   padding: 2rem 0;
