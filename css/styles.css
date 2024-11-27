@@ -36,7 +36,7 @@ Variables
   box-sizing: border-box;
 }
 body {
-  font-family: var(--ff-primary);
+  font-family: var(--clr-primary-light);
   background: var(--clr-white);
   color: var(--clr-grey-1);
   line-height: 1.5;
