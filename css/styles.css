@@ -430,6 +430,7 @@ About
 .about-header .right {
   color: var(--clr-white);
   animation: slideFromRight 5s ease-in-out 1;
+  margin-top: 2rem;
 }
 .about-header .left {
   color: var(--clr-white);
