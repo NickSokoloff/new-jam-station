@@ -361,10 +361,11 @@ Header
   margin-bottom: 0.2rem;
 }
 
-.header-icon {
-  font-size: 2rem;
-  color: var(--clr-primary);
+.header i {
+  margin-left: 0.3rem;
+  text-align: center;
 }
+
 /*
 =============== 
 Skills
@@ -708,7 +709,7 @@ Footer
   font-weight: 400;
 }
 .company {
-  color: var(--clr-primary);
+  color: var(--clr-white);
 }
 
 /* .img-gallery {
