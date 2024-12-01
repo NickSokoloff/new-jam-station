@@ -360,6 +360,11 @@ Header
   background: var(--clr-primary);
   margin-bottom: 0.2rem;
 }
+
+.header-icon {
+  font-size: 2rem;
+  color: var(--clr-primary);
+}
 /*
 =============== 
 Skills
