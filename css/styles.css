@@ -486,26 +486,33 @@ Products
 }
 .product {
   margin-bottom: 2rem;
+  /* border: 2px solid red; */
 }
 .product-img {
   border-radius: var(--radius);
   margin-bottom: 0.5rem;
-  height: 17rem;
+  height: 27rem;
   object-fit: cover;
 }
 .product-price {
   color: var(--clr-primary);
 }
-@media screen and (min-width: 768px) {
+/* @media screen and (min-width: 768px) {
   .product {
     float: left;
     width: 50%;
     padding-right: 2rem;
   }
-}
+} */
 @media screen and (min-width: 992px) {
-  .product {
+  /* .product {
     width: 33.3%;
+  } */
+
+  .about-img,
+  .about-info {
+    float: left;
+    width: 50%;
   }
 }
 @media screen and (min-width: 1200px) {
@@ -520,6 +527,7 @@ Products
   .product {
     margin-bottom: 0;
     padding: 0 1rem;
+    width: 100%;
   }
 }
 .product-title {
