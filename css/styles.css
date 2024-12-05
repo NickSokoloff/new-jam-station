@@ -479,6 +479,15 @@ About
 Products
 ===============
 */
+
+.products-container {
+  /* border: solid 3px red; */
+  display: flex;
+
+  justify-content: center;
+  align-items: start;
+  flex-wrap: wrap;
+}
 .products {
   background: var(--clr-grey-10);
 }
@@ -493,6 +502,9 @@ Products
 .product {
   margin-bottom: 2rem;
   /* border: 2px solid red; */
+  width: 20.5rem;
+  /* height: 200px; */
+  margin: 1.5rem;
 }
 .product-img {
   border-radius: var(--radius);
@@ -510,10 +522,7 @@ Products
     padding-right: 2rem;
   }
 } */
-@media screen and (min-width: 992px) {
-  /* .product {
-    width: 33.3%;
-  } */
+/* @media screen and (min-width: 992px) {
 
   .about-img,
   .about-info {
@@ -535,7 +544,7 @@ Products
     padding: 0 1rem;
     width: 100%;
   }
-}
+} */
 .product-title {
   color: var(--clr-primary);
 }
