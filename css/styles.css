@@ -479,7 +479,37 @@ About
 Products
 ===============
 */
+/* home page */
+.products-home-container {
+  /* border: solid 2px red; */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-wrap: wrap;
+}
 
+.products-info-home {
+  /* border: solid 2px red; */
+  margin: 0;
+  margin-right: 4rem;
+  text-align: center;
+}
+
+.product-home {
+  /* border: solid 4px green; */
+  width: 30.5rem;
+}
+
+.img-home {
+  /* border: solid 2px red; */
+  border-radius: var(--radius);
+  margin-bottom: 0.5rem;
+  height: 27rem;
+  width: 30rem;
+  object-fit: cover;
+}
+
+/* products page */
 .products-container {
   /* border: solid 3px red; */
   display: flex;
@@ -499,7 +529,7 @@ Products
   color: var(--clr-grey-5);
   max-width: 26rem;
 }
-.product {
+.product-page {
   margin-bottom: 2rem;
   /* border: 2px solid red; */
   width: 20.5rem;
@@ -507,6 +537,7 @@ Products
   margin: 1.5rem;
 }
 .product-img {
+  /* border: solid 2px red; */
   border-radius: var(--radius);
   margin-bottom: 0.5rem;
   height: 27rem;
